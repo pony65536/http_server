@@ -2,4 +2,4 @@
 set -e
 cmake -B build
 cmake --build build
-build/main
+build/`arch`/bin/http_server
